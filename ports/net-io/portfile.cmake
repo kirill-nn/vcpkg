@@ -4,7 +4,7 @@ vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO kirill-nn/net-io
         REF "${VERSION}"
-        SHA512 5cdf9867b4d9ab664c4ff75df3c25b2dc49910fc4e684ad56096b986aa241d561a628f2018e37a079e029da940cdb664f2c964f8d751d060211a85d78bf8aedf
+        SHA512 5376dc2b97aa72ba6671861512f4e29882507c9b4a028c46cca6d7f0966a1fe56c29a99fb5b713a85c0cda1abf654442b6d93be254f490f2388f5aabaefe7942
         HEAD_REF master
 )
 
