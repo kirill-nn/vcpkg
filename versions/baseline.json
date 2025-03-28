@@ -6220,6 +6220,10 @@
       "baseline": "8.0.3",
       "port-version": 0
     },
+    "net-io": {
+      "baseline": "0.0.4",
+      "port-version": 0
+    },
     "nettle": {
       "baseline": "3.10",
       "port-version": 0
