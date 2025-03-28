@@ -1,8 +1,7 @@
-vcpkg_from_github(
+vcpkg_from_git(
         OUT_SOURCE_PATH SOURCE_PATH
-        REPO kirill-nn/net-io.git
-        REF 020e35cd39a4bb00a2f0719d3778890fe5490007
-        HEAD_REF master
+        https://github.com/kirill-nn/net-io.git
+        REF 7482de6071d21db77a7236155da44c172a7f6c9e
 )
 
 vcpkg_configure_cmake(
