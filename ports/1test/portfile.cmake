@@ -1,7 +1,7 @@
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO kirill-nn/net-io.git
-        REF 020e35cd39a4bb00a2f0719d3778890fe5490007
+        REF e48b759c681e95b36544ab217020baf3749d2763
         HEAD_REF master
 )
 
