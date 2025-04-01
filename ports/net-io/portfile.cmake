@@ -1,10 +1,9 @@
 # header-only library
 
-vcpkg_from_github(
+vcpkg_from_git(
         OUT_SOURCE_PATH SOURCE_PATH
-        REPO kirill-nn/net-io
-        SHA e48b759c681e95b36544ab217020baf3749d2763
-        HEAD_REF master
+        URL git@github.com:kirill-nn/net-io.git
+        REF e48b759c681e95b36544ab217020baf3749d2763
 )
 
 vcpkg_cmake_configure(SOURCE_PATH "${SOURCE_PATH}")
