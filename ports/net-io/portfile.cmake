@@ -2,7 +2,7 @@
 
 vcpkg_from_git(
         OUT_SOURCE_PATH SOURCE_PATH
-        URL git@github.com:kirill-nn/net-io.git
+        URL https://github.com/kirill-nn/net-io.git
         REF e48b759c681e95b36544ab217020baf3749d2763
 )
 
