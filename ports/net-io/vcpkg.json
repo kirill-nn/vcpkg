@@ -3,6 +3,7 @@
   "version": "0.0.4",
   "description": "net utils",
   "dependencies": [
+    "fmt",
     {
       "name": "vcpkg-cmake",
       "host": true
