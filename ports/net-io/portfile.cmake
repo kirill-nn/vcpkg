@@ -3,7 +3,7 @@
 vcpkg_from_git(
         OUT_SOURCE_PATH SOURCE_PATH
         URL https://github.com/kirill-nn/net-io.git
-        REF e48b759c681e95b36544ab217020baf3749d2763
+        REF bcec3039c2c5f38916e9e6c2728a941e2e4971ac
 )
 
 vcpkg_cmake_configure(SOURCE_PATH "${SOURCE_PATH}")
